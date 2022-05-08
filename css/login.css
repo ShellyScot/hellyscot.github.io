@@ -1,0 +1,1506 @@
+body {
+	background:#043e3a;
+}
+.wrapper {
+	margin:0 auto;
+	width:7.2rem;
+	color:#89d1f7;
+	font-size:.16rem
+}
+.bg {
+	margin-top:-.01rem;
+	height:2.6rem;
+	background-size:100% 100%;
+	background-repeat:no-repeat
+}
+.bg01 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_071.jpg)
+}
+.bg02 {
+	height:2.6rem1;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_062.jpg)
+}
+.bg03 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_053.jpg)
+}
+.bg04 {
+	height:2.61rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_064.jpg)
+}
+.bg05 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_055.jpg)
+}
+.bg06 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_056.jpg)
+}
+.bg07 {
+	height:2.61rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_057.jpg)
+}
+.bg08 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_058.jpg)
+}
+.bg09 {
+	height:3.4rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_059.jpg)
+}
+.bg10 {
+	height:1.81rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/bg_0510.jpg)
+}
+.bgIos {
+	margin-top:-.01rem;
+	height:2.35rem;
+	background-size:100% 100%;
+	background-repeat:no-repeat
+}
+.bgIos01 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_01.jpg)
+}
+.bgIos02 {
+	height:2.36rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_02.jpg)
+}
+.bgIos03 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_03.jpg)
+}
+.bgIos04 {
+	height:2.36rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_04.jpg)
+}
+.bgIos05 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_05.jpg)
+}
+.bgIos06 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_06.jpg)
+}
+.bgIos07 {
+	height:2.36rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_07.jpg)
+}
+.bgIos08 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_08.jpg)
+}
+.bgIos09 {
+	height:2.36rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_09.jpg)
+}
+.bgIos10 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ios/bg_10.jpg)
+}
+.itemLogo {
+	top:1.14rem;
+	left:.32rem;
+	width:1.45rem
+}
+.itemLogo img {
+	width:1.45rem
+}
+.btnRecharge {
+	top:1.14rem;
+	right:.14rem;
+	width:1.19rem;
+	height:1.19rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/btn_recharge.png) no-repeat;
+	background-size:100% 100%;
+	-webkit-animation:btn 1s infinite;
+	animation:btn 1s infinite
+}
+@-webkit-keyframes btn {
+	0% {
+		-webkit-transform:scale(1)
+	}
+	50% {
+		-webkit-transform:scale(1.1)
+	}
+	100% {
+		-webkit-transform:scale(1)
+	}
+}
+@keyframes btn {
+	0% {
+		transform:scale(1)
+	}
+	50% {
+		transform:scale(1.1)
+	}
+	100% {
+		transform:scale(1)
+	}
+}
+.btn {
+	display:inline-block;
+	cursor:pointer
+}
+.btn:active {
+	transform-origin:center bottom;
+	transform:scaleY(.95)
+}
+.btnFacebook {
+	top:2.5rem;
+	right:0;
+	width:1.26rem;
+	height:.94rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ico_facebookfan.png) no-repeat;
+	background-size:100% 100%
+}
+.tipFacebook {
+	top:3.4rem;
+	right:.2rem;
+	box-sizing:border-box;
+	padding:.15rem;
+	width:2.08rem;
+	height:.74rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_facebook.png) no-repeat;
+	background-size:100% 100%;
+	color:#fff;
+	text-align:center;
+	word-wrap:break-word;
+	font-size:.18rem;
+	line-height:1.3;
+	-webkit-animation:btn 1s infinite
+}
+.btnExchange {
+	top:4.3rem;
+	right:.1rem;
+	width:.94rem;
+	height:.94rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/btn_exchange.png) no-repeat;
+	background-size:100% 100%
+}
+.download {
+	top:7.8rem;
+	left:0;
+	width:100%
+}
+.download .textHref {
+	display:block;
+	margin-right:.45rem;
+	color:#ffe899;
+	text-align:right;
+	text-decoration:underline;
+	font-size:.3rem
+}
+.download .itemDetail {
+	display:flex;
+	display:-webkit-flex;
+	margin-top:.3rem;
+	align-items:center;
+	justify-content:center
+}
+.download .itemDetail.btnOne p {
+	position:relative;
+	width:4.52rem
+}
+.download .itemDetail.btnOne a {
+	display:block;
+	margin:0 auto;
+	width:4.52rem;
+	height:.87rem;
+	background-size:100% 100%;
+	background-repeat:no-repeat
+}
+.download .btnOne .btnDownloadGoogle a {
+	margin-right:.17rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/btn_012.png)
+}
+.download .btnOne .btnDownload a {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/btn_021.png)
+}
+.download .itemDetail.btnTwo p {
+	position:relative;
+	width:2.6rem
+}
+.download .itemDetail.btnTwo a {
+	display:block;
+	margin:0 auto;
+	width:2.6rem;
+	height:.83rem;
+	background-size:100% 100%;
+	background-repeat:no-repeat
+}
+.download .btnTwo .btnDownloadGoogle a {
+	margin-right:.17rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/website/btn_01_1.png)
+}
+.download .btnTwo .btnDownload {
+	margin-left:.2rem
+}
+.download .btnTwo .btnDownload a {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/webShop/btn_02_1.png)
+}
+.download .btnDownload i {
+	position:absolute;
+	top:-.2rem;
+	right:-.2rem;
+	width:.53rem;
+	height:.53rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ico_start2.png) no-repeat;
+	background-size:100% 100%;
+	color:#ffe899;
+	text-align:center;
+	line-height:.53rem
+}
+.download .itemDetail p span {
+	display:block;
+	color:#fff5cd;
+	text-align:center;
+	font-size:.26rem
+}
+.download .downloadRule {
+	margin-top:.3rem;
+	color:#94efe9;
+	font-size:.26rem;
+	line-height:1.4
+}
+.download .downloadRule .itemTitle {
+	text-align:center;
+	font-size:.28rem
+}
+.download .downloadRule .itemTitle span {
+	margin:0 .05rem;
+	color:#faf28f;
+	font-weight:700
+}
+.download .downloadRule .itemText {
+	margin-left:.55rem
+}
+.download .munStart {
+	margin:-.13rem auto;
+	width:5rem;
+	height:.32rem;
+	color:#fff5cd;
+	text-align:center;
+	font-size:.26rem;
+	line-height:.32rem
+}
+.download .munStart span {
+	display:inline-block;
+	vertical-align:middle
+}
+.download .munLine {
+	display:inline-block;
+	margin:.01rem .13rem 0 .13rem;
+	width:.01rem;
+	height:.29rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ios/line.png);
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.download .start {
+	display:inline-block;
+	width:.26rem;
+	height:.26rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ios/start.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.download .downloadRule .itemText span {
+	float:left;
+	margin-top:.07rem;
+	margin-right:.1rem;
+	width:.24rem;
+	height:.24rem;
+	border-radius:50%;
+	background:#59b19a;
+	background:-moz-linear-gradient(top,#59b19a 0,#3d8e9c 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#59b19a),color-stop(100%,#3d8e9c));
+	background:-webkit-linear-gradient(top,#59b19a 0,#3d8e9c 100%);
+	background:-o-linear-gradient(top,#59b19a 0,#3d8e9c 100%);
+	background:-ms-linear-gradient(top,#59b19a 0,#3d8e9c 100%);
+	background:linear-gradient(to bottom,#59b19a 0,#3d8e9c 100%);
+	color:#0d5652;
+	text-align:center;
+	font-size:.22rem;
+	line-height:.24rem
+}
+.download .btnDownloadIos {
+	display:block;
+	margin:.22rem auto;
+	width:2.99rem;
+	height:.9rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ios/ios_btn.png) no-repeat;
+	background-size:100% 100%
+}
+.swiper-container {
+	margin-top:.24rem;
+	width:6.58rem;
+	height:3.62rem;
+	border-radius:.3rem
+}
+.swiper-slide {
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:-webkit-flex;
+	display:flex;
+	text-align:center;
+	font-size:18px;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	-webkit-justify-content:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	-webkit-align-items:center;
+	align-items:center
+}
+.swiper-pagination {
+	bottom:-.35rem;
+	width:100%;
+	text-align:center
+}
+.swiper-pagination-bullet {
+	margin-right:.2rem;
+	width:.26rem;
+	height:.26rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ico_list.png) no-repeat;
+	background-size:cover;
+	opacity:1
+}
+.swiper-pagination-bullet-active {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/ico_listOn.png)
+}
+.banner {
+	left:0;
+	width:7.2rem;
+	height:4.28rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_swiper.png) no-repeat;
+	background-size:100% 100%
+}
+.banner.banner-android {
+	top:13.6rem
+}
+.banner.banner-ios {
+	top:11rem
+}
+.swiper-slide img {
+	height:3.62rem
+}
+.news {
+	left:50%;
+	overflow:hidden;
+	box-sizing:border-box;
+	margin-left:-3.61rem;
+	padding-top:.2rem;
+	width:7.23rem;
+	height:4.19rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_news.png) no-repeat;
+	background-size:100% 100%
+}
+.news.news-android {
+	top:19.5rem
+}
+.news.news-ios {
+	top:17rem
+}
+.news li {
+	margin:.1rem auto 0 .5rem;
+	width:6rem;
+	height:.57rem;
+	border-bottom:1px #0e4e4a dashed;
+	font-size:.26rem;
+	line-height:.57rem
+}
+.news li span {
+	float:right
+}
+.news li:last-child {
+	border:0
+}
+.news li a {
+	display:block;
+	color:#94efe9
+}
+.wrapperInside {
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-3.6rem;
+	width:7.2rem;
+	height:100%;
+	background:#0b5250;
+	color:#c3f7ff;
+	font-size:.2rem
+}
+.wrapperInside .top {
+	display:flex;
+	display:-webkit-flex;
+	height:.98rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_top.jpg) no-repeat;
+	background-size:cover;
+	align-items:center;
+	justify-content:center
+}
+.wrapperInside .top img {
+	height:.37rem
+}
+.wrapperInside .btnReturn {
+	position:absolute;
+	top:.3rem;
+	left:.84rem;
+	width:.46rem;
+	height:.4rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/btn_return.png) no-repeat;
+	background-size:.46rem .4rem
+}
+.wrapperInside .bannerTop img {
+	height:2.63rem
+}
+.wrapperInside .itemNews {
+	padding:.35rem 0 1.25rem
+}
+.wrapperInside .itemNews .itemTitle {
+	color:#45b7bb;
+	text-align:center;
+	font-size:.3rem
+}
+.wrapperInside .itemNews .date {
+	margin:.1rem auto .3rem;
+	width:6.85rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/line.png) no-repeat center center;
+	background-size:6.85rem .09rem;
+	color:#23e1fd;
+	text-align:center
+}
+.wrapperInside .itemNews .itemContent {
+	padding:0 .3rem 1rem;
+	background:#0b5250 none repeat scroll 0 0
+}
+.wrapperInside .itemNews .itemContent p {
+	line-height:2.2
+}
+.wrapperInside .itemNews .ico01 {
+	top:1.48rem;
+	right:0;
+	width:.57rem;
+	height:1.04rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ico_news_01.png) no-repeat;
+	background-size:cover
+}
+.wrapperInside .itemNews .ico02 {
+	bottom:1.75rem;
+	left:0;
+	width:.43rem;
+	height:1.1rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ico_news_02.png) no-repeat;
+	background-size:cover
+}
+.wrapperInside .itemNews .ico03 {
+	right:.87rem;
+	bottom:.52rem;
+	width:1.98rem;
+	height:.74rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/mobile/ico_news_03.png) no-repeat;
+	background-size:cover
+}
+.wrapperInside .footer {
+	position:fixed;
+	top:auto;
+	bottom:0;
+	left:50%;
+	box-sizing:border-box;
+	margin-left:-3.6rem;
+	padding-top:.25rem;
+	width:7.2rem;
+	height:1.81rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_footer.jpg) no-repeat;
+	background-size:100% 100%
+}
+.thickdiv {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:101;
+	display:none;
+	width:100%;
+	height:100%;
+	border:0 none;
+	background:#000;
+	opacity:.7
+}
+.pupRecharge {
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:102;
+	margin:-1.78rem 0 0 -2.61rem;
+	width:5.22rem;
+	height:3.56rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/pup_recharge.png) no-repeat;
+	background-size:100% 100%
+}
+.pupRecharge .btnClose {
+	top:-.05rem;
+	right:-.05rem;
+	width:.6rem;
+	height:.61rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/btn_close_recharge.png) no-repeat;
+	background-size:100% 100%
+}
+.pupRecharge .title {
+	margin:.6rem 0 .3rem;
+	color:#fff5cd;
+	text-align:center;
+	font-weight:700;
+	font-size:.25rem
+}
+.pupRecharge .title img {
+	height:.4rem
+}
+.pupRecharge .title a {
+	margin-left:.05rem;
+	color:#fe662a;
+	text-decoration:underline;
+	font-weight:400;
+	font-size:.24rem
+}
+.pupRecharge .text {
+	margin:.25rem auto .3rem;
+	color:#26b7b2;
+	text-align:center;
+	font-size:.26rem
+}
+.pupRecharge .btnReceive {
+	display:block;
+	margin:0 auto;
+	width:2.48rem;
+	height:.78rem;
+	background:url(../img/exchange_ok.png) no-repeat;
+	background-size:100% 100%
+}
+.pupRecharge .btnReceivee {
+	display:block;
+	margin:0 auto;
+	width:2.48rem;
+	height:.78rem;
+	background:url(../img/exchange_ok2.png) no-repeat;
+	background-size:100% 100%
+}
+.guide {
+	margin:0 auto;
+	width:7.2rem;
+	background:#0a5454
+}
+.guide .title {
+	position:relative;
+	margin:0 auto;
+	width:7.2rem;
+	height:.99rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_top_title.gif) no-repeat;
+	background-size:100% 100%
+}
+.guide .title img {
+	height:.99rem
+}
+.guide .title .btnReturn {
+	position:absolute;
+	top:.36rem;
+	left:.84rem;
+	width:.46rem;
+	height:.4rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/btn_return.png) no-repeat;
+	background-size:.46rem .4rem
+}
+.guide .guideCon {
+	margin:.4rem auto
+}
+.guide .guideCon .itemText {
+	margin-bottom:.2rem;
+	margin-left:.17rem;
+	color:#45a7a2;
+	letter-spacing:-.01rem;
+	font-size:.32rem
+}
+.guide .guideCon .itemText .ico {
+	float:left;
+	margin-top:-.05rem;
+	margin-right:.05rem;
+	width:.5rem;
+	height:.59rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/ico_step_bg.png) no-repeat;
+	background-size:100% 100%;
+	color:#135450;
+	text-align:center;
+	font-style:italic;
+	font-size:.32rem;
+	line-height:.59rem
+}
+.guide .guideCon .itemText .cl_yellow {
+	color:#ffe082
+}
+.guide .guideCon .itemImg img {
+	width:7.2rem
+}
+.guide .footer {
+	box-sizing:border-box;
+	padding-top:.3rem;
+	height:1.81rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_footer.jpg) no-repeat;
+	background-size:100% 100%
+}
+.wrapper-land {
+	margin:0 auto;
+	width:7.2rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/ex_mall_land_bg.png) no-repeat;
+	background-size:100% 100%;
+	color:#0a6ccb;
+	font-size:.2rem
+}
+.wrapper-land .landContent {
+	position:relative
+}
+.landContent .title {
+	position:relative;
+	margin:0 auto;
+	width:7.2rem;
+	height:.99rem
+}
+.landContent .title img {
+	height:.99rem
+}
+.landContent .title .btnReturn {
+	position:absolute;
+	top:.35rem;
+	left:.39rem;
+	width:.33rem;
+	height:.33rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/btn_return.png) no-repeat;
+	background-size:100% 100%
+}
+.landContent .landAfter {
+	height:auto
+}
+.landAfter .userInFo {
+	position:relative;
+	margin:0 auto;
+	height:.49rem;
+	background-color:#0a4c4c;
+	color:#12988e;
+	font-size:.24rem;
+	line-height:.49rem;
+	opacity:50%
+}
+.landAfter .userInFo .userId {
+	position:absolute;
+	top:0;
+	left:0;
+	display:inline-block;
+	padding-left:.22rem;
+	width:4.09rem;
+	height:.49rem
+}
+.landContent .yellow {
+	color:#e1d39b
+}
+.landContent .bule {
+	color:#47d0d0
+}
+.landAfter .userNum {
+	position:absolute;
+	top:0;
+	right:0;
+	display:inline-block;
+	width:3.58rem;
+	height:.49rem
+}
+.landAfter .userNum .goldIcon {
+	display:inline-block;
+	width:.32rem;
+	height:.41rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/gold_icon.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.landAfter .landDate {
+	padding-left:.22rem;
+	height:.77rem;
+	color:#12988e;
+	font-size:.28rem;
+	line-height:.77rem
+}
+.landAfter .landDate .edit-icon {
+	display:inline-block;
+	margin-left:1.28rem;
+	width:.28rem;
+	height:.33rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/edit_icon.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.landAfter .landDate .edit-btn {
+	color:#47d0d0;
+	text-decoration:underline
+}
+.landAfter .list {
+	margin:0 auto;
+	width:6.78rem;
+	height:7.05rem
+}
+.list ul li {
+	position:relative;
+	margin-top:.12rem;
+	width:100%;
+	height:2.26rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/list_bg.png) no-repeat;
+	background-size:100% 100%
+}
+.list ul li:first-child {
+	margin-top:0
+}
+.list ul li .convertCard {
+	position:absolute;
+	top:.18rem;
+	left:.38rem;
+	width:2.3rem;
+	height:1.78rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/award_card.png) no-repeat;
+	background-size:100% 100%
+}
+.list ul li .convertLeft {
+	position:absolute;
+	position:relative;
+	top:.33rem;
+	left:2.94rem;
+	width:3.47rem;
+	height:1.47rem
+}
+.list .convertLeft .converTip {
+	position:absolute;
+	top:0;
+	width:3.47rem;
+	height:.37rem;
+	background-size:100% 100%;
+	background-repeat:no-repeat
+}
+.list .convertLeft .converTip.tip01 {
+	background-image:url(../img/1b.png)
+}
+.list .convertLeft .converTip.tip02 {
+	background-image:url(../img/2b.png)
+}
+.list .convertLeft .converTip.tip03 {
+	background-image:url(../img/3b.png)
+}
+.list .convertLeft .converTip.tip04 {
+	background-image:url(../img/4b.png)
+}
+.list .convertLeft .converTip.tip05 {
+	background-image:url(../img/5b.png)
+}
+.list .convertLeft .converBtn {
+	position:absolute;
+	bottom:0;
+	left:.26rem;
+	display:inline-block;
+	width:3.11rem;
+	height:.84rem;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	text-align:center
+}
+.list .convertLeft .converBtn.btn01 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/webShop/conver_btn_01.png)
+}
+.list .convertLeft .converBtn.btn02 {
+	background-image:url(https://sdomino.boxiangyx.com/images/website/webShop/conver_btn_02.png)
+}
+.list .convertLeft .converBtn.btn03 {
+	background-image:url(../img/conver_btn_03.png)
+}
+.list ul li .convertGold {
+	position:absolute;
+	top:.24rem;
+	left:.38rem;
+	width:2.26rem;
+	height:2.02rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/conver_gold.png) no-repeat;
+	background-size:100% 100%
+}
+.landAfter .converRule {
+	margin:.13rem auto;
+	width:6.7rem
+}
+.converRule p {
+	position:relative;
+	overflow:hidden;
+	margin-top:.1rem;
+	padding-left:.15rem;
+	color:#12988e;
+	font-size:.24rem;
+	line-height:.3rem;
+	word-break:break-all
+}
+.converRule .rule-dot {
+	position:absolute;
+	top:.15rem;
+	left:0;
+	display:inline-block;
+	width:.08rem;
+	height:.08rem;
+	border-radius:50%;
+	background-color:#12988e;
+	vertical-align:middle;
+	text-align:center
+}
+.landContent .landBefore {
+	height:auto
+}
+.landBefore .landTip {
+	position:relative;
+	margin:0 auto;
+	height:.83rem;
+	background-color:#0a4c4c;
+	color:#12988e;
+	font-size:.24rem;
+	line-height:.49rem;
+	opacity:50%
+}
+.landBefore .landTip p {
+	margin:0 auto;
+	padding-top:.11rem;
+	padding-left:.21rem;
+	width:6.8rem;
+	line-height:.3rem
+}
+.landBefore .landTip .tipIcon {
+	display:inline-block;
+	width:.2rem;
+	height:.2rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/land_tip_icon.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.landBefore .landDate {
+	height:.7rem
+}
+.landBefore .landDate {
+	padding-left:.22rem;
+	height:.7rem;
+	color:#12988e;
+	font-size:.28rem;
+	line-height:.7rem
+}
+.landBefore .landDate .user-icon {
+	display:inline-block;
+	margin-left:1.78rem;
+	width:.36rem;
+	height:.35rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/user_icon.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.landBefore .landDate .edit-btn {
+	color:#47d0d0;
+	text-decoration:underline
+}
+.landBefore .list {
+	margin:0 auto;
+	width:6.78rem;
+	height:7.05rem
+}
+.landBefore .converRule {
+	margin:.1rem auto;
+	width:6.7rem
+}
+.recordList {
+	margin:.17rem auto;
+	width:6.77rem;
+	height:9.88rem;
+	overflow:hidden
+}
+.recordList ul li {
+	position:relative;
+	margin-top:.12rem;
+	width:100%;
+	height:1.88rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/record_list_bg.png) no-repeat;
+	background-size:100% 100%
+}
+.recordList ul li:first-child {
+	margin-top:0
+}
+.recordList .recordDate {
+	position:absolute;
+	right:.26rem;
+	height:.34rem;
+	color:#12988e;
+	text-align:right;
+	font-size:.22rem;
+	line-height:.34rem
+}
+.recordList .recordCard {
+	position:absolute;
+	top:.49rem;
+	left:.24rem;
+	width:1.53rem;
+	height:1.19rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/record_card.png) no-repeat;
+	background-size:100% 100%
+}
+.recordList .convertGold {
+	position:absolute;
+	top:.45rem;
+	left:.24rem;
+	width:1.58rem;
+	height:1.41rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/conver_gold.png) no-repeat;
+	background-size:100% 100%
+}
+.recordList .recordContent {
+	position:absolute;
+	top:.49rem;
+	left:1.91rem;
+	width:2.92rem;
+	height:1.2rem;
+	color:#045852;
+	font-size:.24rem
+}
+.recordList .recordContent .recordTips {
+	width:2.92rem;
+	height:.33rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/record_tips_01.png) no-repeat;
+	background-size:100% 100%;
+	color:#1bdada;
+	text-align:center;
+	white-space:nowrap;
+	font-weight:700;
+	font-size:.2rem;
+	line-height:.33rem
+}
+.recordList .recordContent .recordTel {
+	padding:.01rem .15rem 0
+}
+.recordList .recordContent .recordNum {
+	position:absolute;
+	bottom:0;
+	padding:0 .15rem 0;
+	color:#fddb80;
+	white-space:nowrap;
+	font-weight:700;
+	font-size:.3rem
+}
+.recordContent .recordNum .recordNum-ioc {
+	display:inline-block;
+	margin-left:.05rem;
+	width:.35rem;
+	height:.41rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/recordNum_ioc.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.recordBtn {
+	position:absolute;
+	top:.49rem;
+	left:5.01rem;
+	width:1.54rem;
+	height:1.2rem;
+	color:#dfb431;
+	font-size:.24rem
+}
+.recordBtn p {
+	margin-left:.02rem
+}
+.recordBtn .submitBtn {
+	position:absolute;
+	bottom:0;
+	display:inline-block;
+	width:1.56rem;
+	height:.56rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/record_btn_01.png) no-repeat;
+	background-size:100% 100%
+}
+.TelephoneTitle {
+	position:relative;
+	margin:0 auto;
+	padding-left:.83rem;
+	height:.82rem;
+	background-color:#0a4c4c;
+	color:#12988e;
+	font-size:.24rem;
+	line-height:.82rem
+}
+.TelephoneLogin {
+	margin:.52rem auto;
+	width:4.25rem;
+	color:#26b7b2;
+	font-size:.26rem
+}
+.TelephoneLogin label {
+	display:block;
+	margin-top:.2rem;
+	padding-left:.1rem
+}
+.TelephoneLogin input {
+	padding-left:.2rem;
+	width:4.05rem;
+	height:.46rem;
+	outline:0;
+	border:none;
+	border-radius:.08rem;
+	background-color:#2ea5a5;
+	color:#177870
+}
+.TelephoneLogin label:first-child {
+	margin-top:0
+}
+.TelephoneLogin .telephone_btn {
+	display:inline-block;
+	margin:.6rem .89rem 0;
+	width:2.42rem;
+	height:.75rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/telephone_btn.png) no-repeat;
+	background-size:100% 100%;
+	text-align:center
+}
+.telephone-share {
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:102;
+	display:none;
+	margin:-1.78rem 0 0 -3.4rem;
+	width:6.78rem;
+	height:5.02rem
+}
+.telephone-share img {
+	width:6.78rem;
+	height:3.85rem
+}
+.telephone-share .shareColseBtn {
+	position:absolute;
+	top:.1rem;
+	right:.1rem;
+	display:inline-block;
+	width:.2rem;
+	height:.2rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/share_colse.png) no-repeat;
+	background-size:100% 100%
+}
+.telephone-share .shareBtn {
+	display:block;
+	margin:.4rem auto;
+	width:2.45rem;
+	height:.79rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/share_btn.png) no-repeat;
+	background-size:100% 100%
+}
+.exchangeBox {
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:102;
+	display:none;
+	margin:-1.78rem 0 0 -2.61rem;
+	width:5.1rem;
+	height:3.46rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/exchange_box.png) no-repeat;
+	background-size:100% 100%
+}
+.exchangeBox .btnClose {
+	top:0;
+	right:0;
+	width:.5rem;
+	height:.53rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/colse_exchange.png) no-repeat;
+	background-size:100% 100%
+}
+.exchangeBox .text {
+	margin:.75rem auto .6rem;
+	color:#26b7b2;
+	text-align:center;
+	font-size:.26rem;
+	padding:0 .15rem
+}
+.exchangeBox .btnReceive {
+	display:block;
+	margin:0 auto;
+	width:2.43rem;
+	height:.75rem;
+	background:url(../img/exchange_ok.png) no-repeat;
+	background-size:100% 100%
+}
+.exchangeBox .btnReceivee {
+	display:block;
+	margin:0 auto;
+	width:2.48rem;
+	height:.78rem;
+	background:url(../img/exchange_ok2.png) no-repeat;
+	background-size:100% 100%
+}
+.loginBox {
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:102;
+	display:block;
+	margin:-1.78rem 0 0 -3.1rem;
+	padding:.18rem .25rem 0;
+	width:6.42rem;
+	height:4.78rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/pop_login_bg.png) no-repeat;
+	background-size:cover;
+	box-sizing:border-box
+}
+.loginBox .title {
+	height:.68rem;
+	text-align:center
+}
+.loginBox .title img {
+	height:.68rem;
+	vertical-align:top
+}
+.loginBox .btnClose {
+	top:0;
+	right:0;
+	width:.55rem;
+	height:.52rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/view_tutorial_btn.png) no-repeat;
+	background-size:100% 100%
+}
+.loginBox .loginContent {
+	color:#26b7b2;
+	font-size:.26rem
+}
+.loginBox .loginContent label {
+	display:inline-block;
+	margin-top:.2rem;
+	width:2.04rem;
+	vertical-align:middle;
+	text-align:right;
+	white-space:nowrap
+}
+.loginBox .loginContent label:first-child {
+	margin-top:0
+}
+.loginBox .loginContent .inputLong {
+	padding-left:.1rem;
+	width:2.64rem;
+	height:.51rem;
+	outline:0;
+	border:none;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/login_input_bg.png) no-repeat;
+	background-size:100% 100%;
+	color:#49d7b4;
+	line-height:.51rem;
+	appearance:none;
+	-webkit-appearance:none
+}
+.loginBox .loginContent input::-webkit-input-placeholder {
+	color:#177870
+}
+.loginBox .loginContent input::-moz-placeholder {
+	color:#177870
+}
+.loginBox .loginContent input:-ms-input-placeholder {
+	color:#177870
+}
+input:-moz-placeholder,input::-moz-placeholder {
+	opacity:1
+}
+.ico-view-tutorial,.loginBox .loginContent .viewTutorial {
+	display:inline-block;
+	width:.37rem;
+	height:.37rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/view_tutorial.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:middle
+}
+.loginBox .loginContent .inputShort {
+	display:inline-block;
+	padding-left:.1rem;
+	width:2.13rem;
+	height:.51rem;
+	outline:0;
+	border:none;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/input_short.png) no-repeat;
+	background-size:100% 100%;
+	color:#49d7b4;
+	line-height:1
+}
+.loginBox .loginContent .viewReution {
+	display:inline-block;
+	color:#fe662a;
+	vertical-align:middle;
+	text-decoration:underline;
+	white-space:nowrap
+}
+.loginBox .loginCenter {
+	font-size:0;
+	text-align:center
+}
+.loginBox .loginTxtBtn {
+	display:inline-block;
+	margin:0 .44rem;
+	font-size:.26rem;
+	color:#26b7b2;
+	text-decoration:underline;
+	cursor:pointer
+}
+.loginContent .submitBtn {
+	display:block;
+	margin:.28rem auto .1rem;
+	width:2.44rem;
+	height:.8rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/submit_btn.png) no-repeat;
+	background-size:100% 100%
+}
+.loginTip {
+	color:#26b7b2;
+	text-align:center;
+	white-space:nowrap;
+	font-size:.2rem
+}
+.loginForm {
+	padding-top:.24rem
+}
+.inputList {
+	position:relative;
+	margin-bottom:.12rem
+}
+.inputList.wrap {
+	width:3.5rem;
+	margin:0 auto .12rem
+}
+.inputList.wrap label {
+	display:block;
+	text-align:left
+}
+.inputList.wrap .inputLong {
+	width:3.5rem
+}
+.inputList .loginTxtBtn {
+	position:absolute;
+	top:.2rem;
+	right:.1rem;
+	font-size:.26rem;
+	color:#26b7b2;
+	text-decoration:underline;
+	cursor:pointer
+}
+.viewGuideBox {
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:102;
+	display:none;
+	margin:-3.78rem 0 0 -3.5rem;
+	width:6.83rem;
+	height:8.29rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/view_guide.png) no-repeat;
+	background-size:100% 100%
+}
+.viewGuideBox .btnClose {
+	top:-.2rem;
+	right:-.2rem;
+	width:.55rem;
+	height:.55rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/view_tutorial_btn.png) no-repeat;
+	background-size:100% 100%
+}
+.pupNote {
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:102;
+	display:flex;
+	display:-webkit-flex;
+	margin:-1.79rem 0 0 -3.14rem;
+	width:6.28rem;
+	height:3.59rem;
+	border:.1rem solid #47d0d0;
+	background:-webkit-linear-gradient(bottom,#105d59,rgba(41,146,140,1));
+	background:linear-gradient(bottom,#105d59,rgba(41,146,140,1));
+	background:-moz-linear-gradient(bottom,#105d59,rgba(41,146,140,1));
+	background:-o-linear-gradient(bottom,#105d59,rgba(41,146,140,1));
+	background-size:100% 100%;
+	align-items:center;
+	flex-flow:column;
+	justify-content:center
+}
+.pupNote .itemText {
+	width:5.5rem;
+	color:#efcb80;
+	font-size:.26rem
+}
+.pupNote .btnList a {
+	display:inline-block;
+	margin-top:.5rem;
+	width:1.96rem;
+	height:.74rem;
+	background-size:cover;
+	background-repeat:no-repeat
+}
+.pupNote .btnList .btnCannel {
+	background-image:url(https://sdomino.boxiangyx.com/images/shop/btn_cannel.png)
+}
+.pupNote .btnList .btnBinding {
+	margin-left:.5rem;
+	background-image:url(https://sdomino.boxiangyx.com/images/shop/btn_binding.png)
+}
+.landContent .footer-land {
+	box-sizing:border-box;
+	padding-top:.3rem;
+	height:1.81rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/bg_footer.jpg) no-repeat;
+	background-size:auto;
+	background-size:100% 100%
+}
+.ico-success {
+	display:inline-block;
+	width:1.1rem;
+	height:1.1rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/ico_success.png) no-repeat;
+	background-size:100% 100%
+}
+.ico-error {
+	display:inline-block;
+	width:1.1rem;
+	height:1.1rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/ico_error.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:top
+}
+.btn-send {
+	display:inline-block;
+	width:2.48rem;
+	height:.78rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/btn_send.png) no-repeat;
+	background-size:100% 100%;
+	vertical-align:top
+}
+.btn-home-page {
+	display:inline-block;
+	width:1.98rem;
+	height:.74rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/btn_home_page.png) no-repeat;
+	background-size:100% 100%;
+	cursor:pointer
+}
+.password-form-container {
+	height:10rem
+}
+.password-form-container .btn-send {
+	display:block;
+	margin:.36rem auto 0;
+	margin-top:-0.2rem
+}
+.password-form {
+	padding-top:.3rem
+}
+.password-form-title {
+	padding:.32rem .2rem;
+	background-color:#094e4d;
+	font-size:.24rem;
+	line-height:1.3;
+	color:#f9f18f;
+	text-align:center
+}
+.password-form-item {
+	display:flex;
+	align-items:center;
+	padding:.1rem 0
+}
+.password-form-item .ico-view-tutorial {
+	margin-left:.18rem
+}
+.password-form-item .btn-getcode {
+	margin-left:.12rem;
+	font-size:.26rem;
+	color:#fe662a;
+	text-decoration:underline
+}
+.password-form-item__label {
+	width:2.32rem;
+	margin-right:.12rem;
+	font-size:.26rem;
+	color:#26b7b2;
+	text-align:right
+}
+.password-form-item__content {
+	flex:1
+}
+.password-form-input {
+	width:3.36rem;
+	height:.46rem;
+	padding:0 .15rem;
+	background-color:#2ea5a5;
+	border:none;
+	border-radius:.08rem;
+	outline:0;
+	font-size:.26rem;
+	line-height:.46rem;
+	color:#0a4c4c;
+	box-sizing:border-box;
+	vertical-align:middle
+}
+.password-form-input::-moz-placeholder {
+	font-size:.22rem;
+	color:#56cccc
+}
+.password-form-input:-ms-input-placeholder {
+	font-size:.22rem;
+	color:#56cccc
+}
+.password-form-input::-webkit-input-placeholder {
+	font-size:.22rem;
+	color:#56cccc
+}
+.password-form-tip {
+	min-height:1.36rem;
+	margin-top:.3rem;
+	padding:0 .5rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/form_tip_bg.png) no-repeat;
+	background-size:100% 100%;
+	box-sizing:border-box;
+	font-size:.2rem;
+	color:#12988e;
+	text-align:center
+}
+.pop-password-tip {
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:6.28rem;
+	height:4.04rem;
+	margin:-2.02rem 0 0 -3.14rem;
+	padding:.1rem .18rem 0;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/pop_tip_bg.png) no-repeat;
+	background-size:100% 100%;
+	box-sizing:border-box
+}
+.pop-password-tip .btnClose {
+	top:0;
+	right:0;
+	width:.55rem;
+	height:.52rem;
+	background:url(https://sdomino.boxiangyx.com/images/website/webShop/view_tutorial_btn.png) no-repeat;
+	background-size:100% 100%
+}
+.pop-password-tip .tip-icon {
+	padding-top:.28rem;
+	text-align:center
+}
+.pop-password-tip .tip-icon .ico-error,.pop-password-tip .tip-icon .ico-success {
+	display:block;
+	margin:0 auto
+}
+.pop-password-tip .tip-txt {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:1.36rem;
+	padding:0 .2rem;
+	font-size:.24rem;
+	line-height:1.2;
+	color:#f9f18f;
+	text-align:center
+}
+.pop-password-tip .tip-txt.error {
+	color:#12988e
+}
+.pop-password-tip .btn-home-page {
+	display:block;
+	margin: 0 auto
+}

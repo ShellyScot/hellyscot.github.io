@@ -1,0 +1,48 @@
+.footer,.footer-land {
+	bottom:.2rem;
+	left:0;
+	width:100%;
+}
+.footer a,.footer-land a {
+	float:left;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.footer a.icoFaceBook,.footer-land a.icoFaceBook {
+	margin:0 .22rem .24rem .4rem;
+	width:.62rem;
+	height:.62rem;
+	background-image:url(../img/ico_facebook.png);
+}
+.footer a.icoMail,.footer-land a.icoMail {
+	width:.62rem;
+	height:.63rem;
+	background-image:url(../img/ico_mail.png);
+}
+.footer a.icoIns,.footer-land a.icoIns {
+	margin-left:.2rem;
+	width:.63rem;
+	height:.63rem;
+	background-image:url(../img/ins.png);
+}
+.footer a.icoTop,.footer-land a.icoTop {
+	float:right;
+	margin-right:.4rem;
+	width:.58rem;
+	height:.58rem;
+	background-image:url(../img/ico_top.png);
+}
+.footer .itemText,.footer-land .itemText {
+	clear:both;
+	color:#45b7bb;
+	text-align:center;
+}
+.landContent .footer {
+	position:static;
+	box-sizing:border-box;
+	padding-top:.3rem;
+	height:1.81rem;
+	background:url(../img/bg_footer.jpg) no-repeat;
+	background-size:auto;
+	background-size: 100% 100%
+}
